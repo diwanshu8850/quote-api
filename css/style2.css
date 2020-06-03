@@ -1,0 +1,50 @@
+#quote-text, #quote-person{
+    color: #1a71b8;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    position: relative;
+    left: -40px;
+}
+
+#quote-input, #person-input{
+    width: 200px;
+    height: 30px;
+    padding: 8px;
+    font-size: 16px;
+    display: block;
+    position: relative;
+    left: -15px;
+}
+
+#submit{
+    width: 200px
+    height: 18px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: solid 1.4px #aaa;
+    background-color: #f2f2f2;
+    color: #1a71b8;
+    position: relative;
+    left: -15px;
+}
+
+#submit:hover{
+    border: solid 1.4px #111;
+}
+
+#submit:active{
+    position: relative;
+    bottom: 2px;
+    outline: none;
+}
+
+#submit:focus{ outline: 0;}
+
+
+
+
+
+

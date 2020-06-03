@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quote Api</title>
+        
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <link href="../css/style2.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body style="background-color: #f2f2f2;">
+        
+        <!-- Main Heading Jumbotron -->
+        <div class="jumbotron jumbotron-fluid" style="background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+            <div class="my-5">
+                <h1 class="text-center font text-monospace text-white display-4">QUOTE API</h1>
+            </div>
+        </div>
+        
+        <!-- Container -->
+        <div class="container w-75">
+            
+            <!-- Navigation bar -->
+            <div class="row justify-content-center">
+                <div class="col-">
+                    <nav class="navbar navbar-expand navbar-light">
+                        <a class="navbar-brand" href="#">
+                            <img src="../quote-icon.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <nav class="navbar-nav mr-auto">
+                                <a class="nav-link active h4 font-weight-normal" href="../index.html">Home</a>
+                                <a class="nav-link font-weight-normal h4" href="./add-quote.html">Add a new Quote</a>
+                            </nav>
+                        </div>
+                    </nav> 
+                </div>
+            </div> <!-- navigation-bar -->
+            
+            <!-- GET QUOTE HEADING -->
+            <div class="row justify-content-center my-4">
+                <div class="col-">
+                    <h2 class="text-monospace h2 font-weight-bold text-danger">Add a Quote</h2>
+                </div>
+            </div> <!-- GET QUOTE HEADING -->
+            
+            <!-- ADD QUOTE -->
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <label id="quote-text">Quote text:</label>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <input id="quote-input" value="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <label id="quote-person">Person:</label>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <input id="person-input" value="">
+                </div>
+            </div>
+         <!-- button-container -->
+        
+        <div class="row justify-content-center">
+            <div class="col-">
+                <button id="submit">Submit Your Quote</button>
+            </div>
+        </div> <!-- input-container -->
+        
+            <div id="add">
+                <div class="row justify-content-center">
+                    <div class="col-" id="add">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="../scripts/add-quote-script.js"></script>
+        
+    </body>
+    
+</html>
